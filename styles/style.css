@@ -49,8 +49,8 @@ body
 .user-box img
 {
    border-radius: 50%;
-   width: 400px;
-   height: 400px;
+   width: 250px;
+   height: 250px;
    border: 2px solid rgb(0, 0, 0)
 }
 
@@ -77,6 +77,7 @@ body
 {
     
     border: 1px solid #fff;
+    padding-top: 100px;
     padding: 10px 10px 20px;
     border-radius: 30px;
     left: 50%;
@@ -160,7 +161,6 @@ body
  
 }
 
-
 .about .h3
 {
     margin-right: 500px;
@@ -169,8 +169,8 @@ body
 .about .profile-img
 {
     
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border: 2px solid rgb(0, 0, 0);
    
 }
