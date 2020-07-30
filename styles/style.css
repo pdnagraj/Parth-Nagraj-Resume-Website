@@ -349,6 +349,68 @@ body
     font-weight: bold;
 }
 
+/*------------certifications ------------------*/
+
+.certifications
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgb(238, 238, 238);
+}
+
+.certifications h1
+{
+    margin-bottom: 50px;
+}
+
+.certifications .col-md-4 #cert1
+{
+    height: 200px;
+    width: 60%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-left: 70px;
+    position: relative;
+    vertical-align:middle;
+}
+
+.certifications .col-md-4 #cert2
+{
+    height: 200px;
+    width: 60%;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    position: center;
+    vertical-align:middle;
+}
+
+.certifications .col-md-4 #cert2p
+{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.certifications .col-md-4 #jpmorg
+{
+    height: 200px;
+    width: 60%;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    background-position-x: -25px;
+    color: black;
+    font-weight: bold;
+}
+
+.certifications p
+{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    vertical-align:middle
+}
+
+
 /*------------Contact ------------------*/
 
 .contact
