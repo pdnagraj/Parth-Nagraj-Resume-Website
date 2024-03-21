@@ -1,4 +1,6 @@
 import './globals.css'
+import React from 'react';
+import Head from 'next/head'
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import ActiveSectionContextProvider from '@/context/active-section-context';
@@ -20,6 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='!scroll-smooth'>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <body className={`${inter.className} bg-gray-50 text-gray-950 relative h-[500px] pt-28 sm:pt-36`}>
 
       <div className="bg-[#fbe2e3] absolute top-[-6rem] right-[11rem]' h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
@@ -28,8 +31,7 @@ export default function RootLayout({
       <ActiveSectionContextProvider>        
         <Header/>       
         <div className="relative z-10">{children}</div>
-            <Footer />
-      
+        <Footer />
       </ActiveSectionContextProvider>
       </body>
     </html>
